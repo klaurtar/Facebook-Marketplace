@@ -1,0 +1,17 @@
+{
+  "name": "facebook-marketplace-bot",
+  "version": "1.0.0",
+  "description": "A simple bot for Facebook Marketplace to relist postings.",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node app.js"
+  },
+  "author": "Ryan Talbert",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.17.1",
+    "nightmare": "^3.0.2",
+    "node-cron": "^2.0.3"
+  }
+}
